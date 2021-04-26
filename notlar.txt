@@ -1,0 +1,50 @@
+reset.css eklenmesi için ikinci bir satırda linklemek oluyor mu? reset içindekileri stylesheet içine mi kaydetmek gerekiyor?
+search butonların hoverını, google sayfasında incelede bulamadım, nerden bakabilirim?
+
+
+.middle {
+   
+    width:100%;
+    min-height: 74vh;
+    
+    align-items: center;
+    background-color: #ffffff;
+    
+    
+}
+
+<section class="middle">
+
+
+<header class="menu_bar">
+           <nav class="links">
+               <a href="#" class="gmail">Gmail</a>
+               <a href="#" class="images">Images</a>
+               <a href="#" class="googleapps"> <img
+                src="googleapps.png"
+                height="30px" width="30px"/></a>
+               <a href="#" class="signin" >Sign in</a>
+           </nav>
+       </header> 
+    
+       
+           <div class="googleimg"><img
+            src="googlelogo.png" class="logo" style="width:272px; height: 92px "/>
+            </div>
+          <form class="searchbox">
+              <img class="glass" src="search.png" />
+              <input type="text" class="googleit" />
+              <img class="mic" src="mic.png" />
+            </form>
+            <div class="search-btn">
+                <button class="google-search-btn">Google Search</button>
+                <button class="random-search-btn">I'm Feeling Lucky</button>
+                <p class="google-text">
+                    Google offered in:<a href="#" class="turkish" >Türkçe</a>
+                  </p>
+            </div>
+
+
+<img
+                 src="googleapps.png"
+                 height="30px" width="30px"/></a>
