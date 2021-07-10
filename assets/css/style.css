@@ -126,13 +126,9 @@ a:hover {
   align-items: center;
 }
 .googleimg {
-  display: block;
-
   min-height: 92px;
   max-height: 290px;
-
   margin-top: auto;
-  position: relative;
 }
 
 /*.gap {
@@ -155,7 +151,6 @@ a:hover {
   background: #fff;
   display: flex;
   border: 1px solid #dfe1e5;
-  box-shadow: none;
   border-radius: 24px;
   min-width: 360px;
   height: 46px;
@@ -179,18 +174,10 @@ a:hover {
   padding-left: 14px;
 }
 .googleit {
-  /*display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-  width: 88%; */
   white-space: pre;
   height: 34px;
-
   border: transparent;
-
   cursor: text;
-
   margin-top: 5px;
   color: #222;
   font-size: 16px;
@@ -350,7 +337,6 @@ input:not(:valid) ~ .remove-text-link {
   line-height: 28px;
   font-size: small;
   text-align: center;
-
   text-decoration: none;
   font-family: arial, sans-serif;
 }
@@ -363,22 +349,18 @@ input:not(:valid) ~ .remove-text-link {
   text-align: center;
   font-family: arial, sans-serif;
 }
-/* buraya sectiondaki her bir elementi tamamla signin gibi*/
 
 .footer {
   width: 100%;
-
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
   color: #222;
   align-self: flex-end;
-
   font-family: arial, sans-serif;
 }
 
 .country {
-  /*chrome da buraya style vermiş, bir üstte-footer1'e vermemiş. en son burayı kontrol et uyumsuzluk çıkaran bir nokta olursa footer1'den buraya taşı kodları.*/
   text-align: left;
   color: rgba(0, 0, 0, 0.54);
   padding: 16px 30px 14px;
@@ -410,30 +392,9 @@ input:not(:valid) ~ .remove-text-link {
   flex-wrap: wrap;
   height: 46px;
 }
-.about {
-  color: #70757a;
-
-  padding: 16px 15px 14px 15px;
-  white-space: nowrap;
-  text-decoration: none;
-  cursor: pointer;
-}
-.advertising {
-  color: #70757a;
-  display: flex;
-  padding: 16px 15px 14px 15px;
-  white-space: nowrap;
-  text-decoration: none;
-  cursor: pointer;
-}
-.business {
-  color: #70757a;
-  display: flex;
-  padding: 16px 15px 14px 15px;
-  white-space: nowrap;
-  text-decoration: none;
-  cursor: pointer;
-}
+.about,
+.advertising,
+.business,
 .hsw {
   color: #70757a;
   display: flex;
@@ -442,6 +403,7 @@ input:not(:valid) ~ .remove-text-link {
   text-decoration: none;
   cursor: pointer;
 }
+
 .footer22 {
   display: flex;
   justify-content: space-between;
@@ -449,22 +411,8 @@ input:not(:valid) ~ .remove-text-link {
   flex-wrap: wrap;
   height: 46px;
 }
-.privacy {
-  color: #70757a;
-  display: flex;
-  padding: 16px 15px 14px 15px;
-  white-space: nowrap;
-  text-decoration: none;
-  cursor: pointer;
-}
-.terms {
-  color: #70757a;
-  display: flex;
-  padding: 16px 15px 14px 15px;
-  white-space: nowrap;
-  text-decoration: none;
-  cursor: pointer;
-}
+.privacy,
+.terms,
 .settings {
   color: #70757a;
   display: flex;
